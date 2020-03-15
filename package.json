@@ -4,7 +4,8 @@
   "description": "backend for tacher personal account",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -12,7 +13,13 @@
   },
   "author": "Daniil",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2",
+    "oracledb": "github:oracle/node-oracledb#v4.2.0"
+  },
   "devDependencies": {
     "express": "^4.17.1"
   }
