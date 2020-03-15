@@ -10,11 +10,6 @@ npm install
 npm run start
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
 ### Documentation
 See [Documentation Reference](https://metanit.com/web/nodejs/4.1.php).
 
