@@ -21,6 +21,6 @@
     "oracledb": "github:oracle/node-oracledb#v4.2.0"
   },
   "devDependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   }
 }
